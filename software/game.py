@@ -112,7 +112,7 @@ class game_data:
                         self.myclue=row[1]
                         #print(self.myclue,row[2],self.signature)
                         #todo: this should be added to game files as row[2]
-                        self.signature=a2b_base64(row[2])
+                        #self.signature=a2b_base64(row[2])
                         self.signature=row[2]
                         #self.signature="none
                     elif row[0] == "#":
